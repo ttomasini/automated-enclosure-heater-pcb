@@ -8,6 +8,7 @@
 		(title "Automated Enclosure Heater PCB")
 		(date "2024-03-24")
 		(rev "v0.1")
+		(comment 1 "Author: Timo Tomasini")
 	)
 	(lib_symbols
 		(symbol "Connector:RJ45"

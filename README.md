@@ -3,6 +3,11 @@
 ## Introduction
 This repo contains a PCB implementation of the Automated Heating System control unit for the Original Prusa Enclosure.
 
+Find the schematics [here](doc/schematic.pdf).
+
+![PCB](doc/pcb.png)
+![PCB assembled](doc/pcb_assembled.png)
+
 ## Manufacturing
 Please ensure that the PCB is manufactured with 70 μm (2 oz/ft²) outer copper layer thickness.
 

@@ -1,0 +1,182 @@
+(footprint "L_Bourns_SRP7050WA_Series"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "7050")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 -4.9 0)
+		(layer "F.SilkS")
+		(uuid "29b5350e-047c-4fcb-bca3-bd4aa66144dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SRP7050WA"
+		(at 0 5.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f142295f-87b0-4825-bb07-2a6001289762")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfa231a9-7742-43a7-b7c6-8a78a0426bc0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5605d84d-9f2f-4251-8076-839cd395c159")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84696823-63c0-4291-a9ce-8e9e1ecbd2e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.65 3.65)
+		(end 3.65 3.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23e8406c-41cf-4390-80f5-3956bc43f8c4")
+	)
+	(fp_line
+		(start 3.65 -3.65)
+		(end -3.65 -3.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a6b93a6-1c2f-41ce-aa32-8f3bc82dc48a")
+	)
+	(fp_line
+		(start -4.825 -4)
+		(end 4.825 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1e94a12-fadb-4251-8af8-d6b73a7e39b1")
+	)
+	(fp_line
+		(start -4.825 4)
+		(end -4.825 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dacbbbcc-4dd7-4d08-8982-bd84c1d197e8")
+	)
+	(fp_line
+		(start 4.825 -4)
+		(end 4.825 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "23c02554-dca6-4534-a937-c6550c683bcd")
+	)
+	(fp_line
+		(start 4.825 4)
+		(end -4.825 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c02c0ed-4276-4875-8d77-f6923fb95ee6")
+	)
+	(fp_line
+		(start -3.65 3.65)
+		(end -3.65 -3.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74ed0339-c22a-4e6d-be85-2f4f36732343")
+	)
+	(fp_line
+		(start 3.65 -3.65)
+		(end 3.65 3.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "185489bf-50f8-4e97-aba5-20e64b9d483b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.9 0)
+		(layer "F.Fab")
+		(uuid "2f9f64da-8397-4340-89e7-935d21a2854e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.025 0)
+		(size 3.05 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7b64c1da-05e2-4061-85df-aaa8a027c15d")
+	)
+	(pad "2" smd rect
+		(at 3.025 0)
+		(size 3.05 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f995fd58-1457-4ae8-9b30-f72011349364")
+	)
+	(model "${KIPRJMOD}/Libraries/SRP7050WA-101M.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

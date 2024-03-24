@@ -1,0 +1,236 @@
+(footprint "Anderson_PowerPole_25A_Right_Angle_Pair"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Use through-hole center to align with adjacent PowerPole connectors.  Do not rely on housing outlines.")
+	(tags "Anderson Powerpole 25A PCB right angle G2")
+	(property "Reference" "P**"
+		(at 0 -5 0)
+		(layer "F.SilkS")
+		(uuid "f8ef5399-6fef-4171-85fd-a0e38437eeeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Anderson_PowerPole_25A_Right_Angle_Pair"
+		(at 0 5.9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bc888177-4243-4342-b82a-8fb2c72eb284")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "977efd12-65a9-4192-a227-c2d379bd8291")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.ch/datasheet/2/22/DS_PP1545-1664114.pdf"
+		(at 0 7.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ca737b9-cd9e-42cc-8474-0de53d5161f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b1ac58a-2280-4fef-a46e-afa5eafd04ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.5 -1.75)
+		(end -8.5 1.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "271449bf-2cee-4d42-8b32-4659cad504df")
+	)
+	(fp_line
+		(start -7.9 -3.95)
+		(end -7.9 3.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f235e5b-4fbc-4223-b05a-511967f93e8e")
+	)
+	(fp_line
+		(start -7.9 -3.95)
+		(end 0 -3.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ddf7bf6-7d6e-4a09-8089-366348529eb7")
+	)
+	(fp_line
+		(start -7.9 3.95)
+		(end 0 3.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "108ad843-5565-4eab-8ef6-85e59fe4cb95")
+	)
+	(fp_line
+		(start -5.7 -3.35)
+		(end -2.2 -3.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89634f42-ea42-46b6-be70-c937cef8c73f")
+	)
+	(fp_line
+		(start -5.7 4.55)
+		(end -2.2 4.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d320dc71-1184-42ca-ab51-d785b6a3b546")
+	)
+	(fp_line
+		(start -0.6 -1.75)
+		(end -0.6 1.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0db14eca-372e-4d05-89cc-b6b9f0c0630b")
+	)
+	(fp_line
+		(start 0 -3.95)
+		(end 0 3.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "274fbce2-a717-49e3-af82-e70de5eb0136")
+	)
+	(fp_line
+		(start 0 -3.95)
+		(end 7.9 -3.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e632b4c-4a38-4e0f-a85f-3f1d4e44a055")
+	)
+	(fp_line
+		(start 0 3.95)
+		(end 7.9 3.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ffe79f2-e35d-4819-8adb-03e9d299524b")
+	)
+	(fp_line
+		(start 2.2 -3.35)
+		(end 5.7 -3.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0ab0c8e-59c7-4ac4-9cf3-c3724a54ac22")
+	)
+	(fp_line
+		(start 2.2 4.55)
+		(end 5.7 4.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e8a6004-9730-4df4-bf94-54013adefa6f")
+	)
+	(fp_line
+		(start 7.3 -1.75)
+		(end 7.3 1.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35a2ae9f-67ce-4a6d-bbb5-1e8e7b1bdccb")
+	)
+	(fp_line
+		(start 7.9 -3.95)
+		(end 7.9 3.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "755e7cb0-b28f-4ba0-8d8e-ee608b3aec42")
+	)
+	(pad "1" thru_hole rect
+		(at -3.95 0)
+		(size 6.25 2.25)
+		(drill oval 5.23 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f309156e-3900-4726-b261-942c1caaac71")
+	)
+	(pad "2" thru_hole rect
+		(at 3.95 0)
+		(size 6.25 2.25)
+		(drill oval 5.23 1.27)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "96510b7e-cb93-4bc1-8b27-85092751ca11")
+	)
+	(model "${KIPRJMOD}/Libraries/45A-VERT-PAIR.wrl"
+		(offset
+			(xyz 0 -4.5 4.54)
+		)
+		(scale
+			(xyz -0.3937 -0.3937 0.3937)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

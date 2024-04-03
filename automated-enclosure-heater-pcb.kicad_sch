@@ -8034,6 +8034,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" "HEATER"
+			(at 181.356 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6bd0103a-ab04-40a6-9519-0ebca19af898")
 		)
@@ -10338,6 +10346,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "FAN"
+			(at 236.728 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

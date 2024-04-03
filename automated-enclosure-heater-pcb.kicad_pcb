@@ -1214,6 +1214,19 @@
 				)
 			)
 		)
+		(property "Purpose" "HEATER"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4683865-37f4-4223-a8ec-0a9fa81b19be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/07276358-5bcb-49ff-a0ca-c9b1c2bab51a")
 		(sheetname "Root")
@@ -14055,6 +14068,19 @@
 				)
 			)
 		)
+		(property "Purpose" "FAN"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5c0bc18-835f-4f49-9267-2e3c25048b5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/6a1708d9-66c0-426b-a5f6-5bf98fe46454")
 		(sheetname "Root")
@@ -20813,14 +20839,14 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "FAN"
-		(at 210.1 101.2 0)
+	(gr_text "HEATER"
+		(at 208.5 101.5 0)
 		(layer "F.SilkS")
 		(uuid "312f3d60-cfab-4683-92c9-4ae7b3d8bca0")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -20922,13 +20948,13 @@
 		)
 	)
 	(gr_text "FAN"
-		(at 239.1 86.3 90)
+		(at 239 86.6 90)
 		(layer "F.SilkS")
 		(uuid "edfb4b34-e2a6-494f-91a9-f42020dbb7d2")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.125)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)

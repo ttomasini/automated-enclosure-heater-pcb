@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Automated Enclosure Heater PCB")
-		(date "2024-03-24")
-		(rev "v0.1")
+		(date "2024-04-07")
+		(rev "v0.2")
 		(comment 1 "Author: Timo Tomasini")
 	)
 	(lib_symbols
@@ -5212,6 +5212,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 106.68) (xy 247.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c116ccb-2924-4744-b3df-3c8d30fa17e9")
+	)
+	(wire
+		(pts
 			(xy 208.28 26.67) (xy 208.28 27.94)
 		)
 		(stroke
@@ -5289,16 +5299,6 @@
 			(type default)
 		)
 		(uuid "45558708-6c99-4c8b-bfda-3de16070bec0")
-	)
-	(wire
-		(pts
-			(xy 247.65 109.22) (xy 245.11 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d99c91-8242-4a97-85fd-79df6c8be7f9")
 	)
 	(wire
 		(pts
@@ -5552,16 +5552,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 104.14) (xy 245.11 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "611c9d22-3963-49a8-ba57-9fee9035fc0f")
-	)
-	(wire
-		(pts
 			(xy 104.14 175.26) (xy 104.14 185.42)
 		)
 		(stroke
@@ -5750,16 +5740,6 @@
 		)
 		(uuid "78dd2071-c66b-49af-a9b3-c03d7137f1d3")
 	)
-	(wire
-		(pts
-			(xy 247.65 106.68) (xy 245.11 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a633862-8081-46f5-afa6-dab6e3bf6cb9")
-	)
 	(polyline
 		(pts
 			(xy 158.75 91.44) (xy 158.75 123.19)
@@ -5919,6 +5899,16 @@
 			(type default)
 		)
 		(uuid "8492f872-8ad7-45bd-bd6a-352d914750eb")
+	)
+	(wire
+		(pts
+			(xy 245.11 109.22) (xy 247.65 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f25ed2-68ba-410b-bce3-1c2fece3a28f")
 	)
 	(wire
 		(pts
@@ -7012,6 +7002,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 104.14) (xy 247.65 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93f32c2-85a3-47d3-a905-6e307d068e82")
+	)
+	(wire
+		(pts
 			(xy 245.11 121.92) (xy 247.65 121.92)
 		)
 		(stroke
@@ -7399,7 +7399,7 @@
 		(uuid "9deabff3-6e54-4ee6-9737-0d3ad28076ea")
 	)
 	(label "BUTTON_UP_GPIO"
-		(at 247.65 104.14 0)
+		(at 247.65 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7454,7 +7454,7 @@
 		(uuid "b1d1d6b3-ae6b-4e21-9a65-450b4baad1a2")
 	)
 	(label "BUTTON_DOWN_GPIO"
-		(at 247.65 109.22 0)
+		(at 247.65 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
